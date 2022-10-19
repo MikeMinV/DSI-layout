@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-red: #ee4248;
+    --color-gray: #30444E;
+    
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+p {
+    color: var(--color-gray);
+}
+
+span {
+    color: var(--color-red)
+
+}
+
+.navbar {
+    background: white;
+    padding: 1em;
+    box-shadow: 1px 1px 3px rgb(175, 171, 171);
+    display: flex;
+    justify-content: center;
+    position: unset;
+    max-height: 60px;
+
+        
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.primary-nav {
+    padding: 0px 60px 55px 170px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 40px ;
+
+
+    a {
+        text-decoration: none;
+        color: var(--color-gray);
+        font-weight: 400;   
+        font-size: 20px;
+
+        &:hover {
+            color: var(--color-red);
+        }
+    }
+
+
+}
+
+
+.left-col {
+
+    margin-right: 50px;
+    margin-left: -100px;
+    
+    h1 {
+        font-size: 3.7em;
+        color: var(--color-gray);
+        letter-spacing: -1.5px;
+        font-weight: 700;
+    
+    }
+
+    p {
+        font-size: 1.5em;
+        margin-top: -15px;
+        margin-bottom: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 22px;
+        color: white;
+        background-color: var(--color-red);
+        border: 15px solid var(--color-red);
+        border-radius: 4px;
+        box-shadow: 2px 5px 5px rgb(212, 194, 194);
+        padding: 2px 20px;
+
+
+    }
+}
+
+.right-col {
+    img{
+        width: 620px;
+        margin-top: 40px;
+        margin-right: -150px;
+    }
+}
+
+
+
+section {
+    padding: 10em 20em;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    min-height: 560px
+}
+
+.hero .container {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    background: #f6f6f6;
+    max-height: 300px;
+
+    .container {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    margin-right: -100px;
+    
+    text-align: left;
+    }
+
+    .left-col-2 {
+        img {
+            width: 550px;
+            margin-right: 100px;
+            margin-left: -90px;
+            
+        }
+    }
+
+    .right-col-2 {
+
+        margin-top: 30px;
+        margin-right: -80px;
+        
+
+       h2 {
+        font-size: 2.5em;
+       }
+
+       p {
+        font-size: 1.3em;
+        line-height: 35px;
+       }
+    }
+}
+
+.products-title {
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 100px;
+    letter-spacing: -1px;
+}
+
+.products {
+
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    max-height: 300px;
+    text-align: left;
+
+    .container {
+        width: 1080px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -150px;
+    }
+
+    .our {
+        margin-top: -100px;
+    
+    }
+
+    .first {
+        margin-left: -100px;
+        margin-right: 100px;
+    }
+
+    .third {
+        margin-right: -200px;
+        margin-left: 100px;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        background-color: var(--color-red);
+        border: 15px solid var(--color-red);
+        border-radius: 4px;
+        box-shadow: 2px 5px 5px rgb(212, 194, 194);
+        padding: -1px 12px;
+    }
+
+    p {
+        margin-bottom: 30px;
+        margin-right: 0px;
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    img {
+        width: 130px;
+    }
+}
+
+
+
+
+
+.contacts {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -70px;
+    padding-bottom: 90px;
+    
+}
+
+.right {
+    margin-right: 50px;
+
+    img {
+        margin-bottom: -15px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: -10px;
+    }
+}   
+
+
+.left {
+    p {
+        font-size: 18px;
+        line-height: 17px;
+    }
+}
+
+
+.foot {
+    text-align: center;
+    background: var(--color-red);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+
+    p {
+        color: white;
+    }
+
+
+    span {
+        color: #ffffff;
+        letter-spacing: .5px;
+        font-weight: 400;
+    }
+}
